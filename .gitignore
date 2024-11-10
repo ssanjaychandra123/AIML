@@ -1,43 +1,42 @@
 # Python
-__pycache__/
-*.py[cod]
+*.pyc
 *.pyo
+__pycache__/
 
-# Virtual environment
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Azure Databricks
+.dbfs/
+*.dbc
+
+# SQL Server
+*.mdf
+*.ldf
+
+# Power BI
+.pbix
+
+# Virtual Environment
 venv/
 env/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Azure Databricks related files
-.databricks/
-
-# Logs
-logs/
-*.log
-
-# Environment files
-.env
-
-# IDE or editor specific files
+# IDEs and Editors
 .vscode/
 .idea/
 
-# Data storage or export files
+# Log files
+*.log
+
+# Data files
 *.csv
-*.sqlite
-*.db
+*.xlsx
+*.json
+*.parquet
 
-# Power BI related files
-*.pbix
-
-# SQL Server related files
+# Temporary files
+*.tmp
 *.bak
-*.mdf
-*.ldf
-*.sql
 
-# System-specific files
-.DS_Store
-Thumbs.db
+# Other
+*.DS_Store

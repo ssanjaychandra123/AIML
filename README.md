@@ -29,19 +29,19 @@ Make sure you have the following installed:
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/ssanjaychandra123/customer-churn-prediction.git
-
-2. Install dependencies:
+   git clone https://github.com/ssanjaychandra123/Customer-Churn-Prediction-Model.git
+   
+3. Install dependencies:
    pip install -r requirements.txt
 
-3. Set up Azure Databricks:
+4. Set up Azure Databricks:
    Upload the dataset to Azure Databricks.
    Configure the environment for model training within Databricks.
 
-4. Run the model:
+5. Run the model:
    Execute the Python scripts to preprocess the data, train the model, and generate predictions.
 
-5. Power BI integration:
+6. Power BI integration:
    Connect Power BI to the Azure Databricks model for real-time predictions.
 
 ### Results

@@ -29,5 +29,28 @@ Make sure you have the following installed:
 ### Installation
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/ssanjaychandra123/customer-churn-prediction.git
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Set up Azure Databricks:
+   Upload the dataset to Azure Databricks.
+   Configure the environment for model training within Databricks.
+
+4. Run the model:
+   Execute the Python scripts to preprocess the data, train the model, and generate predictions.
+
+5. Power BI integration:
+   Connect Power BI to the Azure Databricks model for real-time predictions.
+
+### Results
+The model successfully identifies at-risk customers, achieving a high AUC-ROC score and providing actionable insights through a real-time dashboard.
+
+### Contributing
+If you'd like to contribute, please follow these steps:
+
+Fork the repository.
+Create a new branch.
+Make your changes.
+Open a pull request.

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Azure Databricks related files
+.databricks/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+
+# IDE or editor specific files
+.vscode/
+.idea/
+
+# Data storage or export files
+*.csv
+*.sqlite
+*.db
+
+# Power BI related files
+*.pbix
+
+# SQL Server related files
+*.bak
+*.mdf
+*.ldf
+*.sql
+
+# System-specific files
+.DS_Store
+Thumbs.db

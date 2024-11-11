@@ -45,7 +45,7 @@ Make sure you have the following installed:
    Connect Power BI to the Azure Databricks model for real-time predictions.
 
 ### Results
-The model successfully identifies at-risk customers, achieving a high AUC-ROC score and providing actionable insights through a real-time dashboard.
+The model successfully identifies at-risk customers, achieving a high AUC-ROC score
 
 ### Contributing
 If you'd like to contribute, please follow these steps:
